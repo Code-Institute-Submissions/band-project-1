@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand:100,200,300,400,500,600,700');
+
+
+/*....
+navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-collapse ul li a{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+    font-family: "Indie Flower";
+    font-weight: 200;
+    font-size: 21px;
+}
+.....old*/
+
+
+
+/*.....................................................nav-bar*/
+
+
+
+.navbar-default .navbar-collapse{
+    border-color: transparent;
+}
+
+
+.container-fluid-auto {
+    background-color: white;
+    text-align: center;
+    border-width: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #b2ad3f;
+    font-family: "Indie Flower";
+    font-weight: 200;
+    font-size: 21px;
+    margin-left: 50px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: #b2ad3f;
+}
+
+
+.navbar .navbar-default{
+    border-bottom-color: white;
+}
+/*.......Jumno*/
+
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 500px;
+    background-image: url(/assets/images/cover-img.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+  
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    font-family: "Quicksand";
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+
+/*...................................Block Divider*/
+
+.block-divider {
+    border-radius: 10px;
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    padding-top: 0px
+}
+
+.block-divider--black {
+    background-color: black;
+}
