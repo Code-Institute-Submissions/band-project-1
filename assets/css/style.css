@@ -1,41 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand:100,200,300,400,500,600,700');
 
 
-/*....
-navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: transparent;
-    border: 0;
-}
-
-.navbar-collapse ul li a{
-    text-align: center;
-    margin-left: 40px;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fafafa;
-    font-family: "Indie Flower";
-    font-weight: 200;
-    font-size: 21px;
-}
-.....old*/
-
 
 
 /*.....................................................nav-bar*/
@@ -80,7 +45,8 @@ navbar {
 .navbar .navbar-default{
     border-bottom-color: white;
 }
-/*.......Jumno*/
+
+/*......................................................................Jumno*/
 
 
 
@@ -113,7 +79,7 @@ navbar {
 }
 
 
-/*...................................Block Divider*/
+/*.............................................................................Block Divider*/
 
 .block-divider {
     border-radius: 10px;
