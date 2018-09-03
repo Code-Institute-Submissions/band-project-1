@@ -5,7 +5,12 @@
 
 /*.....................................................nav-bar*/
 
-
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px;
+}
 
 .navbar-default .navbar-collapse{
     border-color: transparent;
@@ -23,8 +28,8 @@
 }
 
 .navbar-default .navbar-nav>li>a{
-    color: #b2ad3f;
-    font-family: "Indie Flower";
+    color: #024244;
+    font-family: "Quicksand";
     font-weight: 200;
     font-size: 21px;
     margin-left: 50px;
@@ -38,7 +43,7 @@
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: transparent;
-    color: #b2ad3f;
+    color: #024244;
 }
 
 
@@ -46,7 +51,11 @@
     border-bottom-color: white;
 }
 
-/*......................................................................Jumno*/
+.navbar-default .navbar-nav>li>a:hover{
+    color: #00000;
+}
+
+/*......................................................................Jumbo*/
 
 
 
@@ -72,20 +81,28 @@
     color: white;
     font-weight: bold;
     font-family: "Quicksand";
-    margin-bottom: 30px;
     text-align: center;
     background-color: black;
     
 }
 
+@media only screen and (max-width: 768px) {
+    .jumbotron h1{
+    padding-top: 10px;
+    height: 60px;
+    width: 300px
+    }
+    
+ 
+} 
+ 
 
 /*.............................................................................Block Divider*/
 
 .block-divider {
-    border-radius: 10px;
+    border-radius: 19px;
     width: 75px;
-    height: 5px;
-    border: 0;
+    height: 2px;
     background-color: #444;
     padding-top: 0px
 }
@@ -93,3 +110,472 @@
 .block-divider--black {
     background-color: black;
 }
+
+
+/*.............................................................................Footer*/
+
+
+
+.footer-img{
+    background-image: url("../images/cover3.jpg");
+    background-position: center;
+    position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 100%;
+    min-width: 500px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.foot-general{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #024244;
+    height: 500px;
+}
+
+.general{
+    font-family: "Quicksand",sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.social-links li i {
+    color: #d1b13c;
+    transition: all .35s ease-in-out;
+    padding-top: 10px;
+    padding-left: 20px;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links li i:hover{
+    color: #fafafa;
+}
+
+
+.copywrite{
+    padding-top: 10px;
+}
+
+.foot-general .privacy-sub a{
+    color: #d1b13c;
+    text-decoration: none;
+}
+
+.foot-general .privacy-sub a:hover{
+    color: white;
+}
+
+
+.block-divider-footer {
+    border-radius: 10px;
+    width: 75px;
+    height: 1px;
+    border: 0;
+    background-color: #444;
+    padding-top: 0px
+}
+
+
+.block-divider--footer {
+    background-color: #fe993a;
+}
+/*.............................................................................section*/
+
+.heading-style{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: #8097AD;
+}
+
+.text-box{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border: 1px solid #e7efef;
+}
+
+
+.sub-gen{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.icon{
+    padding-left: 15px;
+}
+
+
+.social-links2 li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: rgb(124,148,177, .8);
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links2 li a i:hover{
+    background: #7C94B1;
+}
+
+.heading-style2{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.bandcover{
+    height: 538px;
+    width: auto;
+    border-radius: 3%;
+    background-size: cover;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+
+.bandcover-small{
+    height: 300px;
+    width: 450px;
+    border-radius: 3%;
+    background-size: cover;
+    margin: 30px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.background-cover{
+    background-color: #024244;
+}
+
+
+.icon-size i{
+    color: #fafafa;
+    text-shadow: 1px 1px 3px #ccc;
+    font-size: 4.5em;
+    padding-top: 20px;
+}
+
+.sub-gen-bottom{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: 100;
+}
+
+.sub-gen-bottom-p{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: lighter;
+    font-size: 14;
+}
+/*.............................................................................Contact*/
+
+
+.heading-style-contact{
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    color: #8097AD;
+}
+
+
+.color-form{
+    background-color: #024244;
+    border-radius: 28px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.heading-style-forum{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fafafa;
+} 
+
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.center-form button{
+    background-color: #fafafa;
+    color: #024244;
+}
+
+.center-form button:hover{
+    background-color: #8fbabb;
+    color: #fafafa;
+}
+
+.element-pad{
+    margin-bottom: 10px;
+}
+
+
+/*.....................................Tour Dates*/
+
+
+
+.media a img{
+    width: 200px;
+    height: 200px;
+}
+
+.body-block{
+    height: 750px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    overflow: scroll;
+}
+
+.heading-event{
+    padding-top: 40px;
+}
+
+
+.center-block2{
+    background-color: #de6c6c;
+    color: white;
+}
+
+.center-block2:hover{
+    background-color: #e03636;
+    color: white;
+}
+
+.element-position{
+    text-align: right;
+    float: right;
+}
+
+
+.element-position-left{
+    text-align: right;
+    float: left;
+}
+
+.media-object{
+    border-radius: 10px;
+}
+/*................................................ Clips*/
+
+
+.sidenav {
+    width: 130px;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border-radius: 18px;
+}
+
+.sidenav a {
+    margin: 6px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #024244;
+    display: block;
+    font-family: "Quicksand";
+}
+
+.sidenav a:hover {
+    color: #0f5fa3;
+}
+
+.main {
+    margin: 0 40px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.mini-top-nav{
+    width: 300px;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.mini-top-nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #024244;
+    display: inline-block;
+    font-family: "Quicksand";
+}
+
+.mini-top-nav a:hover {
+    color: #0f5fa3;
+}
+
+.padding-section-clips{
+    padding-top: 30px;
+}
+
+.pictures-size{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+.padding-top-video{
+    margin:20px;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.cover-heading{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #4a3c36;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.album-cover{
+    width: 320;
+    height: 240;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.padding-top-audio{
+    margin-top: 50px;
+}
+
+/*............................... Media Q*/
+
+
+@media (max-width:480px) {
+    .pictures-size{
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .jumbotron h1{
+    padding-top: 10px;
+    height: 60px;
+    width: 300px
+    }
+    
+    .padding-top-video{
+    width: 240px;
+    height: 180px;
+    }
+    
+
+}
+
+
+@media (min-width:480) and (max-width:768px) {
+    .pictures-size{
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .jumbotron h1{
+    padding-top: 10px;
+    height: 60px;
+    width: 300px
+    }
+   
+}
+
+@media (min-width:992px) {
+    .pictures-size{
+        width: 300px;
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+  
+    .padding-left{
+    padding-left: 40px;
+    } 
+    
+    .padding-top-audio{
+    margin-bottom: 20px;
+    margin-top: 0px;
+    }
+    
+    .padding-audio-left{
+        padding-left: 100px;
+    }
+
+    
+}
+
+
+
+    
+ 
