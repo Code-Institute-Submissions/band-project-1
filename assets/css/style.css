@@ -13,12 +13,15 @@
 }
 
 .navbar-default .navbar-collapse{
-    border-color: transparent;
+    border-bottom-color: white;
 }
 
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: white;
+}
 .container-fluid-auto {
     background-color: white;
+  
     text-align: center;
     border-width: 0px;
     padding-right: 15px;
@@ -32,7 +35,6 @@
     font-family: "Quicksand";
     font-weight: 200;
     font-size: 21px;
-    margin-left: 50px;
 }
 
 .navbar .navbar-nav {
@@ -54,6 +56,7 @@
 .navbar-default .navbar-nav>li>a:hover{
     color: #00000;
 }
+
 
 /*......................................................................Jumbo*/
 
@@ -187,7 +190,7 @@
 
 
 .block-divider--footer {
-    background-color: #fe993a;
+    background-color: white;
 }
 /*.............................................................................section*/
 
@@ -197,7 +200,7 @@
     font-weight: 500;
     padding-top: 30px;
     padding-bottom: 70px;
-    color: #8097AD;
+    color: #024244;
 }
 
 .text-box{
@@ -306,16 +309,26 @@
     font-weight: lighter;
     font-size: 14;
 }
+
+.disc-home{
+    font-family: "Quicksand";
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+}
 /*.............................................................................Contact*/
 
 
 .heading-style-contact{
     text-align: center;
-    font-family: 'Quicksand';
+    font-family: "Quicksand",sans-serif;
     font-weight: 500;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 70px;
-    color: #8097AD;
+    color: #024244;
 }
 
 
@@ -378,6 +391,12 @@
 
 .heading-event{
     padding-top: 40px;
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: #de6c6c;
+    
 }
 
 
@@ -423,7 +442,7 @@
 .sidenav a {
     margin: 6px 8px 20px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
     color: #024244;
     display: block;
     font-family: "Quicksand";
@@ -434,8 +453,8 @@
 }
 
 .main {
-    margin: 0 40px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin: 0 40px; 
+    font-size: 28px; 
     padding: 0px 10px;
 }
 
@@ -482,7 +501,7 @@
 
 .padding-top-video{
     margin:20px;
-    padding: 20px;
+    padding: 0 20px;
     padding-left: 10px;
 }
 
@@ -531,6 +550,20 @@
     height: 180px;
     }
     
+    .body-block{
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    overflow: visible;
+    }
+    
+    .heading-event{
+    padding: 0px;
+    margin: 0px;
+
+    }
 
 }
 
@@ -548,7 +581,29 @@
     height: 60px;
     width: 300px
     }
-   
+    
+    .navbar-default .navbar-nav>li>a{
+
+    margin-left: 50px;
+    }
+    
+  .heading-event{
+    padding: 0px;
+    margin: 0px;
+
+    }
+  
+}
+
+
+@media (min-width:769) and (max-width:991) {
+     .heading-event{
+    padding: 0px;
+    margin: 0px;
+
+    }
+ 
+ 
 }
 
 @media (min-width:992px) {
@@ -571,7 +626,11 @@
     .padding-audio-left{
         padding-left: 100px;
     }
+    
+    .navbar-default .navbar-nav>li>a{
 
+    margin-left: 50px;
+    }
     
 }
 
