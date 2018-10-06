@@ -1,5 +1,8 @@
 THE MONKEES FAN SITE 
 
+
+
+
 The Monkees Official Site provides users with a complete fan experience. 
 The site includes up-to-date biographical information regarding each band member, group achievements, historical 
 and recent discography, a contact form and all forthcoming band related events.  
@@ -40,7 +43,7 @@ Features
     v.	Submit with valid information, successful 
 
     2.	Clips Page:
-    i.	Go to the "Clips" page
+        Go to the "Clips" page
     ii.	Click on video to watch, video plays
     iii.Click on new video, new video plays while old one is playing still
     iv.	Try to click on audio, audio appears
