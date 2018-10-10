@@ -1,4 +1,4 @@
-THE MONKEES FAN SITE 
+# THE MONKEES FAN SITE 
 
 
 
@@ -7,10 +7,10 @@ The Monkees Official Site provides users with a complete fan experience.
 The site includes up-to-date biographical information regarding each band member, group achievements, historical 
 and recent discography, a contact form and all forthcoming band related events.  
 
-UX
+### UX
 -This website is targeted to existing and prospective fans. Allows recently acquired fans to read a brief history of the band members, while providing existing fans with band clips, upcoming events and a contact forum.
 
--User Stories 
+###### User Stories 
     •	As an existing fan, I want click on the “what’s new” section, so that I can see upcoming tour dates.
     •	As a new fan, I want click on home, so I can read the bands history 
     •	As an existing fan, I want to click on clips, in order to view clips of the band 
@@ -18,15 +18,15 @@ UX
     
 -Wireframes:  /assets/images/Wire-frames.jpg
 
-Features
--Existing Features
+### Features
+###### Existing Features
     •	Contact forum - allows users to submit enquires 
     •	Clips – allows users to view images, audio files and videos of the band 
     •	Tickets – allows users to view different tour dates and get tickets 
--Features Left to Implement
+###### Features Left to Implement
     •	A signup forum to receive band updates 
     •	Embedded social pages 
--Technologies Used
+###### Technologies Used
     •	JavaScript 
         o	The project uses JS to create the contact forum 
     •	Font Awesome
@@ -34,24 +34,24 @@ Features
     •	Bootstrap 
         o	This project uses Bootstrap to create a general outline and heading effects 
 
--Testing
-    1.	Contact form:
-    i.	Go to the "Contact Us" page
-    ii.	Try to submit the page without a email, error appears
-    iii.Try to submit page with email, but without name, error appears 
-    iv.	Try to submit with valid email and name but without description, error appears 
-    v.	Submit with valid information, successful 
+###### Testing
+    Contact form:
+    Go to the "Contact Us" page
+    Try to submit the page without a email, error appears
+    Try to submit page with email, but without name, error appears 
+    Try to submit with valid email and name but without description, error appears 
+    Submit with valid information, successful 
 
-    2.	Clips Page:
-        Go to the "Clips" page
-    ii.	Click on video to watch, video plays
-    iii.Click on new video, new video plays while old one is playing still
-    iv.	Try to click on audio, audio appears
-    v.	Play audio files, audio files play
-    vi.	Try to click on images, images appear
-    vii.Try to save images, image save successful 
+   Clips Page:
+    Go to the "Clips" page
+    Click on video to watch, video plays
+    Click on new video, new video plays while old one is playing still
+    Try to click on audio, audio appears
+    Play audio files, audio files play
+    Try to click on images, images appear
+    Try to save images, image save successful 
 
-Different Screen Sizes 
+### Different Screen Sizes 
     •	Home
         o	The Member avatars change from 4 to 2 to 1 per row as the size decreases 
         o	The band information changes from 3 to 1 per row as the size decreases 
@@ -67,11 +67,11 @@ Different Screen Sizes
     •	Contact
         o	The avatars change from 3 to 1 per row as the screen decreases 
 
-Deployment
+### Deployment
 -The Website is hosted on GitHub, there are no difference between the deployed and development versions.
 
 
-Credits
+### Credits
     Content
         •	All text was utilized from Wiki
             o	The Monkees: https://en.wikipedia.org/wiki/The_Monkees
