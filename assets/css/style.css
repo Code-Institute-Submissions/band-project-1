@@ -65,7 +65,7 @@
 .jumbotron {
     margin-bottom: 0px;
     height: 500px;
-    background-image: url("/cover-img.jpg");
+    background-image: url("../images/cover-img.jpg");
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@
 
 
 .footer-img{
-    background-image: url("..images/cover3.jpg");
+    background-image: url("../images/cover3.jpg");
     background-position: center;
     position: static;
     background-repeat: no-repeat;
